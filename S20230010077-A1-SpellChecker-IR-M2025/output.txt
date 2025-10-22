@@ -1,0 +1,36 @@
+=== TELUGU SPELL CHECKER TEST CASES RESULTS ===
+
+Test Case 1: Single misspelled word
+Original: తెలుగు భాషా దేశం
+Misspelled: భాషా
+Top 1 Candidates: [భాష]
+Recommended: భాష
+Corrected: తెలుగు భాష దేశం
+
+Test Case 2: Multiple misspelled words  
+Original: విధ్యార్థి ఉపాధ్యాయుడు పాఠశాల
+Misspelled: విధ్యార్థి, ఉపాధ్యాయుడు
+Top Candidates for విధ్యార్థి: [విద్యార్థి]
+Top Candidates for ఉపాధ్యాయుడు: []
+Recommended: విద్యార్థి, No suggestions
+Corrected: విద్యార్థి ఉపాధ్యాయుడు పాఠశాల
+
+Test Case 3: Completely correct text
+Original: తెలుగు భాష దేశం ప్రపంచ
+No misspelled words detected
+Corrected: తెలుగు భాష దేశం ప్రపంచ
+
+Test Case 4: Mixed correct and incorrect
+Original: కంప్యూటర్ ప్రోగ్రామింగ్ భాష తెలుగు
+Misspelled: ప్రోగ్రామింగ్
+Top Candidates: []
+Recommended: No suggestions
+Corrected: కంప్యూటర్ ప్రోగ్రామింగ్ భాష తెలుగు
+
+Test Case 5: Complex words
+Original: విశ్వవిధ్యాలయ పరీక్షా ఫలితాలు
+Misspelled: విశ్వవిధ్యాలయ, పరీక్షా
+Top Candidates for విశ్వవిధ్యాలయ: [విశ్వవిద్యాలయ]
+Top Candidates for పరీక్షా: [పరీక్ష]
+Recommended: విశ్వవిద్యాలయ, పరీక్ష
+Corrected: విశ్వవిద్యాలయ పరీక్ష ఫలితాలు
